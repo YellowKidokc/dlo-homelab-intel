@@ -1101,7 +1101,7 @@ $("main").addEventListener("click",async e=>{
     const axes={};$$(".ax",card).forEach(a=>{const s=$(".abtn.sel",a);if(s)axes[a.dataset.ax]=+s.dataset.v});
     const cur=$(".rbtn.sel",card);
     if(cur)await api("/api/rate",{body:{item_id:id,score:+cur.dataset.s,axes}});
-    else toast("Set a 1–10 rating first, then the axes stick")
+    else toast("Set a 1–10 rating first, then the axes stick");
     return;}
 });
 
