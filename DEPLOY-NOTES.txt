@@ -1,0 +1,6 @@
+// DLO HomeLab Intel — combined worker, LIVE on prophecy-platform-portable-20260922
+// Deployed 2026-11-03. sha256 b2e1f7e6d6d6a6806fd1d787fce6ee0ec0c526ee3b1cb3d792374ddd714e8d6f
+// Bindings: DB (D1 50d1aa61-b207-4cef-8a7d-32330ecb23f5), ASSETS (static site)
+// Cron: */30 * * * * — rotating window of 45 stalest feeds per run (~4h full rotation of 339 feeds)
+// Features: 90-day retention, auto-save relevance >= 8.0 (never purged), legacy /api/live-feed(s)
+// routes with feed_aliases, /intel console with Saved ★ view and per-feed drill-down.
