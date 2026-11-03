@@ -1,5 +1,7 @@
 // DLO HomeLab Intel — combined worker, LIVE on prophecy-platform-portable-20260922
-// Deployed 2026-11-03. sha256 b2e1f7e6d6d6a6806fd1d787fce6ee0ec0c526ee3b1cb3d792374ddd714e8d6f
+// Deployed 2026-11-03 (second deploy: fixes /api/items minRel ReferenceError).
+// 64,961 bytes · sha256 0236a33b68aef1d2f78b277e22e4af470952dddf15a8ec0f2f996abf7636758c
+// worker.js in this repo is byte-identical to the live script.
 // Bindings: DB (D1 50d1aa61-b207-4cef-8a7d-32330ecb23f5), ASSETS (static site)
 // Cron: */30 * * * * — rotating window of 45 stalest feeds per run (~4h full rotation of 339 feeds)
 // Features: 90-day retention, auto-save relevance >= 8.0 (never purged), legacy /api/live-feed(s)
